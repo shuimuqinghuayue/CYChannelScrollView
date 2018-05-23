@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SGChannelViewControllerProtocol.h"
-@interface SGChannelViewController : UIViewController<SGChannelViewControllerProtocol>
+@interface SGChannelViewController : UIViewController
 @property (nonatomic,copy)NSString * reuseIdentifier;
 - (instancetype)initWithReuseIdentifier:(NSString *)reuseIdentifier;
 @end
